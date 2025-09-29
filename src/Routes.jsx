@@ -1,14 +1,14 @@
 import React from "react";
 import { BrowserRouter, Routes as RouterRoutes, Route } from "react-router-dom";
-import ScrollToTop from "components/ScrollToTop";
-import ErrorBoundary from "components/ErrorBoundary";
-import NotFound from "pages/NotFound";
+import ScrollToTop from "./components/ScrollToTop";
+import ErrorBoundary from "./components/ErrorBoundary";
+import NotFound from "./pages/notfound.jsx";
 import PartnershipLaunchpad from './pages/partnership-launchpad';
 import MissionControlHub from './pages/mission-control-hub';
 import RocketArsenal from './pages/rocket-arsenal';
 import TeamCommandCenter from './pages/team-command-center';
-import EngineeringVault from './pages/engineering-vault';
-import CommunicationHub from './pages/communication-hub';
+import EngineeringVault from './pages/engineering-vault/Index';
+import CommunicationHub from './pages/communication-hub/Index';
 
 const Routes = () => {
   return (
